@@ -1,0 +1,55 @@
+{
+  "name": "chat-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"app\"",
+    "prepare:data": "node ./lib/scripts.mjs"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@langchain/openai": "^0.2.6",
+    "@langchain/pinecone": "^0.0.8",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.6",
+    "@next/bundle-analyzer": "^13.4.19",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-menubar": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@supabase/supabase-js": "^2.45.1",
+    "ai": "^3.1.12",
+    "autoprefixer": "10.4.14",
+    "cheerio": "^1.0.0-rc.12",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "embla-carousel-react": "^8.1.8",
+    "langchain": "^0.2.13",
+    "lucide-react": "^0.426.0",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "openai": "^4.54.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "resolutions": {
+    "@langchain/core": "0.2.20"
+  }
+}
